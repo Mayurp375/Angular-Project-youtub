@@ -1,0 +1,15 @@
+json-server --watch db.json : used for starting json 
+http://localhost:3000/user
+
+
+error :
+1. If 'mat-card-header' is an Angular component, then verify that it is part of this module.
+2. If 'mat-card-header' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+solved by importing data formfield from material 
+
+
+to do
+use button 
+
+ng g module material/angular-material

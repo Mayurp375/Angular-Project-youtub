@@ -1,0 +1,16 @@
+<mat-card style="align-items: center;">
+    <mat-card-header>
+        <h1> User register works!</h1>
+    </mat-card-header>
+
+    <form class="example-form" [formGroup]="registrationform" (ngSubmit)="proceedregistration">
+        <mat-form-field class="example-full-width">
+            <mat-label>User name</mat-label>
+            <input matInput formControlName="firstname">
+        </mat-form-field>
+        
+       
+    </form>
+</mat-card>
+
+<!-- <h1>register</h1> -->
